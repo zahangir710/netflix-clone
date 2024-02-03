@@ -1,7 +1,12 @@
+import Banner from "./Banner/Banner";
 import "./HomeScreen.css";
 
 function HomeScreen() {
-  return <div>this is home screen</div>;
+  return (
+    <div>
+      <Banner></Banner>
+    </div>
+  );
 }
 
 export default HomeScreen;
