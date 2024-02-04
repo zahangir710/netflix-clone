@@ -1,6 +1,5 @@
 .banner {
   margin-top: -90px;
-  background-image: url("https://c4.wallpaperflare.com/wallpaper/260/579/821/stranger-things-netflix-hd-wallpaper-preview.jpg");
   background-position: center center;
   background-size: cover;
   height: 500px;
@@ -11,7 +10,7 @@
 
 .banner-content {
   padding-left: 20px;
-  padding-top: 150px;
+  padding-top: 180px;
   height: 200px;
 }
 .banner-title {
@@ -34,7 +33,7 @@
   cursor: pointer;
   font-weight: 700;
   border-radius: 0.1vw;
-  background-color: #111;
+  background-color: #1111119a;
   padding: 0.5rem 1rem;
   margin-right: 1rem;
 }
@@ -49,9 +48,6 @@
   left: 0;
   width: 100%;
   height: 120px;
-  background: linear-gradient(
-    rgba(255, 255, 255, 0),
-    rgba(255, 255, 255, 0.55)
-  );
+  background: linear-gradient(rgba(255, 255, 255, 0), #111);
   pointer-events: none;
 }
