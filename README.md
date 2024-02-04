@@ -1,6 +1,12 @@
-React Frontend, Live site url: https://netflix-clone-28029.web.app
-
+# React Frontend, Live site url: https://netflix-clone-28029.web.app
 This is a simple Netflix clone.
+
+#Features:
+1. Dynamic banner and movie description (on reload)
+2.
+3.
+....
+
 The content is loaded form the TMDB api (https://www.themoviedb.org/)
 
 Technology used:
