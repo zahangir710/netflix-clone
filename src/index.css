@@ -16,3 +16,31 @@ li {
   margin: 0 auto;
   background-color: #111;
 }
+
+@media (max-width: 1220px) {
+  .max-screen {
+    width: 972px;
+  }
+}
+@media (max-width: 992px) {
+  .max-screen {
+    width: 748px;
+  }
+}
+
+@media (max-width: 768px) {
+  .max-screen {
+    width: 556px;
+  }
+}
+
+@media (max-width: 576px) {
+  .max-screen {
+    width: 380px;
+  }
+}
+@media (max-width: 400px) {
+  .max-screen {
+    width: 380px;
+  }
+}
