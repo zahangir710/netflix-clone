@@ -1,3 +1,4 @@
+import Header from "../../Components/Header/Header";
 import requests from "../../requests";
 import Banner from "./Banner/Banner";
 import "./HomeScreen.css";
@@ -6,6 +7,7 @@ import Row from "./Row/Row";
 function HomeScreen() {
   return (
     <div>
+      <Header></Header>
       <Banner></Banner>
       <Row
         title="Netflix Originals"
