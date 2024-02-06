@@ -1,14 +1,14 @@
 import { createBrowserRouter } from "react-router-dom";
-import MainLayou from "../Layout/MainLayout/mainLayou";
 import HomeScreen from "../Pages/HomeScreen/HomeScreen";
 import Profile from "../Pages/Profile/Profile";
-import Login from "../Pages/Login/Login";
+import LoginScreen from "../Pages/LoginScreen/LoginScreen";
 import PrivateRoute from "./PrivateRoute";
+import MainLayout from "../Layout/MainLayout/MainLayout";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <MainLayou></MainLayou>,
+    element: <MainLayout></MainLayout>,
     children: [
       {
         path: "",
@@ -24,7 +24,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/login",
-        element: <Login></Login>,
+        element: <LoginScreen></LoginScreen>,
       },
     ],
   },
